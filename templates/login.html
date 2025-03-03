@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Iniciar Sesión</h2>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form action="/login" method="POST">
+        <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        </p>
+        <p>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" required>
+        </p>
+        <button type="submit">Iniciar sesión</button>
+    </form>
+    <a href="/">Volver al inicio</a>
+</body>
+</html>
