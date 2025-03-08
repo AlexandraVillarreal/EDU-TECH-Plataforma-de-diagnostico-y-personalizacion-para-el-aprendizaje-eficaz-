@@ -1,7 +1,7 @@
 # EDU-Tech: Plataforma de diagnóstico y personalización para el aprendizaje eficaz
 
 Este proyecto es una aplicación web que permite a los estudiantes registrar su información académica, 
-descubrir su estilo de aprendizaje resolviendo la encuesta de Honey-Alonso y para que asi brinde
+descubrir su estilo de aprendizaje resolviendo la encuesta de Honey-Alonso, para que asi se le brinde
 recomendaciones de herramientas educativas personalizadas segun tu estilo de aprendizaje. Ademas
 tambien puede recibir predicciones sobre su rendimiento académico.  
 
